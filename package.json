@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/MuriloRoque/personal_portfolio#readme",
   "devDependencies": {
+    "bootstrap": "^4.5.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
     "html-loader": "^1.1.0",
@@ -28,6 +29,7 @@
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "popper.js": "^1.16.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^3.0.6",
