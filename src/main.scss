@@ -1,5 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 
 .carousel-item{
-  height: 32rem;
+  height: 15rem;
+}
+
+.resume{
+  text-decoration: none;
+  color: #ffffff80;
+}
+
+.resume:hover{
+  color: #cccecf;
 }
