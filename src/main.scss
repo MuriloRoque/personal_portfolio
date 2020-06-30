@@ -18,11 +18,21 @@
   margin-top: 56px;
   .carousel-item{
     height: 15rem;
+    .carousel-caption{
+      padding-left: 100px;
+      padding-bottom: 0;
+      color: #000;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+  .background-carousel{
+    opacity: 0.1;
   }
 }
 
 .projects-title{
   background-color: #6c757d;
-  color: #fff;
+  color: #cccecf;
 }
 
