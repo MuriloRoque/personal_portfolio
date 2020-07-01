@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 
+body{
+  min-width: 320px;
+}
 .navbar{
   position: fixed;
   width: 100%;
@@ -17,10 +20,10 @@
 .carousel{
   margin-top: 56px;
   .carousel-item{
-    height: 15rem;
+    img{
+      height: 60vh;
+    }
     .carousel-caption{
-      padding-left: 100px;
-      padding-bottom: 0;
       color: #000;
       font-weight: 500;
       font-size: 20px;
@@ -28,6 +31,7 @@
   }
   .background-carousel{
     opacity: 0.4;
+    overflow: hidden;
   }
 }
 
@@ -42,4 +46,25 @@
 }
 .bootstrap-link:hover{
   color: #cccecf;
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-caption{
+    padding-top: 0;
+    h1{
+      font-size: 27px;
+    }
+    p{
+      font-size: 17px;
+      a{
+        font-size: 17px;
+        padding: 4px;
+      }
+    }
+  }
+  footer{
+    .nav-item{
+      font-size: 9px;
+    }
+  }
 }
