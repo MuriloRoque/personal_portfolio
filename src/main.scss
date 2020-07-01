@@ -1,73 +1,84 @@
 @import "~bootstrap/scss/bootstrap";
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   min-width: 320px;
 }
-.navbar{
+
+.navbar {
   position: fixed;
   width: 100%;
   z-index: 20;
   top: 0;
-  .resume{
+
+  .resume {
     text-decoration: none;
     color: #ffffff80;
   }
-  .resume:hover{
+
+  .resume:hover {
     color: #cccecf;
   }
 }
 
-.carousel{
+.carousel {
   margin-top: 56px;
-  .carousel-item{
-    img{
+
+  .carousel-item {
+    img {
       height: 60vh;
     }
-    .carousel-caption{
+
+    .carousel-caption {
       color: #000;
       font-weight: 500;
       font-size: 20px;
     }
   }
-  .background-carousel{
+
+  .background-carousel {
     opacity: 0.4;
     overflow: hidden;
   }
 }
 
-.projects-title{
+.projects-title {
   background-color: #6c757d;
   color: #cccecf;
 }
 
-.bootstrap-link{
+.bootstrap-link {
   text-decoration: none;
   color: #ffffff80;
 }
-.bootstrap-link:hover{
+
+.bootstrap-link:hover {
   color: #cccecf;
 }
 
 @media only screen and (max-width: 500px) {
-  .carousel-caption{
+  .carousel-caption {
     padding-top: 0;
-    h1{
+
+    h1 {
       font-size: 27px;
     }
-    p{
+
+    p {
       font-size: 17px;
-      a{
+
+      a {
         font-size: 17px;
         padding: 4px;
       }
     }
   }
-  footer{
-    .nav-item{
+
+  footer {
+    .nav-item {
       font-size: 9px;
     }
   }
