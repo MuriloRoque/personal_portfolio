@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   min-width: 320px;
 }
